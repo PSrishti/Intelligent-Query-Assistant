@@ -1,0 +1,60 @@
+{"text": "Hi, I'm Rajeev and my Samsung Galaxy A52 keeps restarting randomly. It started after a software update. Can you help?", "entities": [[8, 14, "name"], [22, 40, "device type"], [41, 66, "issue description"], [87, 102, "software"]]}
+{"text": "My name is Anika Sharma. My MacBook Pro 2020 is overheating frequently. It’s still under warranty.", "entities": [[11, 23, "name"], [28, 44, "device type"], [48, 70, "issue description"], [83, 97, "warranty status"]]}
+{"text": "The printer (HP LaserJet 1020) in our office isn't printing PDFs correctly. My name is Sudhir.", "entities": [[87, 93, "name"], [13, 29, "device type"], [45, 74, "issue description"]]}
+{"text": "Hey, this is Aarti. I think there's a problem with my Dell Inspiron laptop’s webcam. It doesn’t work on Zoom.", "entities": [[13, 18, "name"], [54, 74, "device type"], [104, 108, "software"]]}
+{"text": "My OnePlus Nord has stopped detecting WiFi networks after I installed a beta OxygenOS update. I’m Alok.", "entities": [[98, 102, "name"], [3, 15, "device type"], [20, 51, "issue description"], [77, 92, "software"]]}
+{"text": "I bought a new Canon EOS 200D and the lens won't auto-focus. Still in warranty. Help please. - Pranav", "entities": [[95, 101, "name"], [15, 29, "device type"], [38, 59, "issue description"], [67, 78, "warranty status"]]}
+{"text": "This is Riya. My Windows 11 desktop froze after the latest update and won’t boot. Is there a fix?", "entities": [[8, 12, "name"], [17, 35, "device type"]]}
+{"text": "Aman here. My Sony Bravia smart TV is not responding to the remote at all. It’s only 6 months old.", "entities": [[0, 4, "name"], [14, 34, "device type"], [38, 66, "issue description"], [85, 97, "warranty status"]]}
+{"text": "Can someone assist? The fingerprint scanner on my Lenovo ThinkPad X1 has stopped working. I’m Shubham.", "entities": [[94, 101, "name"], [50, 68, "device type"]]}
+{"text": "My iPhone 14 Pro Max crashes whenever I open Instagram. I’m Nisha. Please help.", "entities": [[60, 65, "name"], [3, 20, "device type"], [21, 54, "issue description"]]}
+{"text": "Hello, I'm Preeti. My Google Nest device is not responding to voice commands anymore.", "entities": [[11, 17, "name"], [22, 33, "device type"], [44, 76, "issue description"]]}
+{"text": "Deepak here. I can't update the OS on my iPad Mini 5. It shows a verification error.", "entities": [[0, 6, "name"], [41, 52, "device type"], [15, 34, "issue description"]]}
+{"text": "This is Vivek. My MSI gaming laptop screen flickers during gameplay on Steam. Still in warranty.", "entities": [[8, 13, "name"], [18, 35, "device type"], [36, 67, "issue description"], [71, 76, "software"], [84, 95, "warranty status"]]}
+{"text": "Hi, my daughter’s Amazon Fire Tablet keeps freezing on YouTube Kids. I’m Karan.", "entities": [[73, 78, "name"], [18, 36, "device type"], [37, 51, "issue description"], [55, 67, "software"]]}
+{"text": "My name is Seema. I’m having issues with my HP Envy printer. It won’t connect to Wi-Fi.", "entities": [[11, 16, "name"], [44, 59, "device type"], [64, 86, "issue description"]]}
+{"text": "Hello support, I’m Pooja. My Dell monitor screen randomly turns black for a second. It’s very annoying.", "entities": [[19, 24, "name"], [29, 41, "device type"], [42, 69, "issue description"]]}
+{"text": "This is Jayant. I’ve forgotten the password to my ASUS ZenBook and can't get past the login screen.", "entities": [[8, 14, "name"], [50, 62, "device type"], [21, 43, "issue description"]]}
+{"text": "Hey, this is Aarav. My AirPods Pro disconnect frequently while on calls. They’re still under AppleCare.", "entities": [[13, 18, "name"], [23, 34, "device type"], [35, 71, "issue description"], [87, 102, "warranty status"]]}
+{"text": "Sonia here. My LG refrigerator’s touchscreen is unresponsive and I can't control the settings anymore.", "entities": [[0, 5, "name"], [15, 30, "device type"], [33, 60, "issue description"]]}
+{"text": "My name is Gaurav, and my Xbox Series X gives an error while launching games from Game Pass.", "entities": [[11, 17, "name"], [26, 39, "device type"], [40, 76, "issue description"], [82, 91, "software"]]}
+{"text": "This is Anu. My Samsung Smartwatch's heart rate sensor isn’t accurate anymore.", "entities": [[8, 11, "name"], [16, 34, "device type"], [37, 69, "issue description"]]}
+{"text": "I'm Mohit. My Nikon D5600 camera's display isn’t turning on after I changed the battery. It's within warranty.", "entities": [[4, 9, "name"], [14, 32, "device type"], [35, 59, "issue description"], [94, 109, "warranty status"]]}
+{"text": "Namaste, I’m Meenal. The Bluetooth on my Realme phone drops connection every few minutes.", "entities": [[13, 19, "name"], [41, 53, "device type"]]}
+{"text": "I’m Faisal. The software update on my Mi TV failed and it’s stuck in a boot loop.", "entities": [[4, 10, "name"], [38, 43, "device type"], [60, 80, "issue description"], [16, 31, "software"]]}
+{"text": "Hey, I'm Tanvi. My Epson EcoTank printer is printing faded pages despite new ink.", "entities": [[9, 14, "name"], [19, 40, "device type"], [44, 64, "issue description"]]}
+{"text": "Ajay here. My JioFiber router randomly drops connection even with full signal. Help needed.", "entities": [[0, 4, "name"], [14, 29, "device type"], [30, 55, "issue description"]]}
+{"text": "Hi, I’m Shalini. After installing a driver update, my HP Pavilion’s keyboard stopped working.", "entities": [[8, 15, "name"], [54, 65, "device type"], [68, 92, "issue description"], [36, 49, "software"]]}
+{"text": "Hello, I'm Keshav. My PS5 disc drive isn’t reading any games. Bought it last November.", "entities": [[11, 17, "name"], [22, 25, "device type"], [26, 60, "issue description"]]}
+{"text": "My name is Sweta. I just bought a Lenovo Tab M10 and it won’t download apps from Play Store.", "entities": [[11, 16, "name"], [34, 48, "device type"], [56, 75, "issue description"], [81, 91, "software"]]}
+{"text": "This is Aakash. I think my Google Pixel 7 has a microphone issue. People can't hear me on calls.", "entities": [[8, 14, "name"], [27, 41, "device type"], [48, 64, "issue description"]]}
+{"text": "Hey, I'm Aryan and my Dell Inspiron laptop just freezes randomly. It's still under warranty. Can I get help?", "entities": [[9, 14, "name"], [22, 42, "device type"], [48, 64, "issue description"], [77, 91, "warranty status"]]}
+{"text": "My name is Tanya. I'm having trouble installing Adobe Illustrator on my MacBook Pro.", "entities": [[11, 16, "name"], [72, 83, "device type"], [29, 65, "issue description"]]}
+{"text": "Call me Varun. My HP Pavilion screen flickers non-stop. It's quite frustrating. Not sure about the warranty.", "entities": [[8, 13, "name"], [18, 29, "device type"], [30, 54, "issue description"]]}
+{"text": "This is Neha here. My phone - a Samsung S21 Ultra - won't connect to Wi-Fi since the last update.", "entities": [[8, 12, "name"], [32, 49, "device type"], [52, 74, "issue description"]]}
+{"text": "I'm using Lenovo ThinkPad and my touchpad is unresponsive. No clue if the warranty is still active. I'm Raj.", "entities": [[104, 107, "name"], [10, 25, "device type"], [33, 57, "issue description"]]}
+{"text": "Jasmeet here. My Xbox keeps shutting down mid-game. Is it a hardware issue?", "entities": [[0, 7, "name"], [17, 21, "device type"], [22, 50, "issue description"]]}
+{"text": "Name’s Priya. My Canon printer is jamming papers and I need it for urgent printouts.", "entities": [[7, 12, "name"], [17, 30, "device type"], [34, 48, "issue description"]]}
+{"text": "I'm trying to run Photoshop on my Surface Pro but it crashes every time. I'm Sidharth, by the way.", "entities": [[77, 85, "name"], [34, 45, "device type"], [53, 71, "issue description"], [18, 27, "software"]]}
+{"text": "My name is Aanya. The volume button on my iPad Air is stuck. I bought it last year.", "entities": [[11, 16, "name"], [42, 50, "device type"]]}
+{"text": "This is Krish. I'm facing overheating problems with my MSI gaming laptop. Is that common?", "entities": [[8, 13, "name"], [55, 72, "device type"], [26, 46, "issue description"]]}
+{"text": "Reena here. My Asus monitor won't turn on even after replacing the cable.", "entities": [[0, 5, "name"], [15, 27, "device type"], [28, 41, "issue description"]]}
+{"text": "Hey, I'm Dev. My Windows 11 PC keeps restarting after the latest update. Help needed.", "entities": [[9, 12, "name"], [17, 30, "device type"], [31, 47, "issue description"]]}
+{"text": "Hi, I'm facing syncing issues between my Apple Watch and iPhone. My name is Tushar.", "entities": [[76, 82, "name"], [41, 52, "device type"], [15, 29, "issue description"], [57, 63, "software"]]}
+{"text": "I’m Meera. My new Mac Studio doesn't recognize external displays. Bought last month.", "entities": [[4, 9, "name"], [18, 28, "device type"], [29, 64, "issue description"]]}
+{"text": "Name's Arjun. The fingerprint scanner on my Lenovo Yoga is malfunctioning. Still under warranty.", "entities": [[7, 12, "name"], [44, 55, "device type"], [81, 95, "warranty status"]]}
+{"text": "Nikhil here. My PS5 disc drive is making weird noises and rejecting discs.", "entities": [[0, 6, "name"], [16, 19, "device type"], [20, 53, "issue description"]]}
+{"text": "This is Minal. My Kindle Paperwhite screen froze completely. No physical damage. Bought last year.", "entities": [[8, 13, "name"], [18, 35, "device type"], [36, 59, "issue description"]]}
+{"text": "Ravi speaking. My Dell desktop is showing a blue screen error since I installed the latest Windows update.", "entities": [[0, 4, "name"], [18, 30, "device type"], [44, 61, "issue description"], [91, 98, "software"]]}
+{"text": "I'm Seema. My wireless earbuds aren't pairing with any device. They're only two weeks old.", "entities": [[4, 9, "name"], [14, 30, "device type"], [31, 61, "issue description"]]}
+{"text": "Arpita here. My MacBook Air battery drains rapidly even on sleep mode. Bought it in Jan.", "entities": [[0, 6, "name"], [16, 27, "device type"], [28, 50, "issue description"]]}
+{"text": "Hi, this is Imran. My Smart TV (Samsung) is not connecting to my home Wi-Fi network. Please assist.", "entities": [[12, 17, "name"], [22, 30, "device type"]]}
+{"text": "I'm Mayank and the fan in my gaming laptop (Asus ROG) is making loud noises. Still under service period.", "entities": [[4, 10, "name"], [44, 52, "device type"], [83, 103, "warranty status"]]}
+{"text": "This is Shruti. My Windows Surface can't detect the webcam anymore. Skype and Zoom both fail.", "entities": [[8, 14, "name"], [19, 34, "device type"], [35, 58, "issue description"], [68, 73, "software"]]}
+{"text": "Hey, I’m Manan. My Samsung tablet is stuck on the startup logo after a factory reset.", "entities": [[9, 14, "name"], [19, 33, "device type"], [37, 62, "issue description"]]}
+{"text": "Kriti here. The HDMI port on my Acer laptop is broken. Can I get it repaired under warranty?", "entities": [[0, 5, "name"], [32, 43, "device type"], [77, 91, "warranty status"]]}
+{"text": "Name: Abhishek. My OnePlus Nord has ghost touch issues. Started after a minor fall.", "entities": [[6, 14, "name"], [19, 31, "device type"], [36, 54, "issue description"]]}
+{"text": "Hello, I am Diya. I installed Zoom on my Chromebook but the camera is not working on calls.", "entities": [[12, 16, "name"], [41, 51, "device type"], [60, 81, "issue description"], [30, 34, "software"]]}
+{"text": "This is Akhil. My Realme buds are only playing audio in one ear. I bought them last week.", "entities": [[8, 13, "name"], [18, 29, "device type"], [34, 63, "issue description"]]}
+{"text": "Namrata here. My Epson scanner isn't saving scanned files to the correct folder. Need help fixing it.", "entities": [[0, 7, "name"], [17, 30, "device type"]]}
+{"text": "My name is Tanmay. I’m unable to log in to my Windows laptop after the last update. Keyboard input not working.", "entities": [[11, 17, "name"], [46, 60, "device type"], [23, 39, "issue description"]]}

@@ -1,0 +1,55 @@
+{"text": "Hey, I'm Srishti. I need a 2BHK flat in Mumbai. My budget is under 50 lakhs. You can call me at 9876543210.", "entities": [[9, 16, "NAME"], [27, 36, "PROPERTY_TYPE"], [40, 46, "LOCATION"], [61, 75, "BUDGET"], [96, 106, "CONTACT"]]}
+{"text": "Looking to buy a studio apartment. Preferably located in Bangalore. Contact: rahul@gmail.com", "entities": [[17, 33, "PROPERTY_TYPE"], [57, 66, "LOCATION"], [77, 92, "CONTACT"]]}
+{"text": "My name is Aman Verma. Is there any bungalow available? I can spend around 1 crore. Reach out at 9001234567.", "entities": [[11, 21, "NAME"], [36, 44, "PROPERTY_TYPE"], [68, 82, "BUDGET"], [97, 107, "CONTACT"]]}
+{"text": "Deepa Nair here. Need a commercial shop somewhere near Pune. The budget would be within 70 lakhs.", "entities": [[0, 10, "NAME"], [24, 39, "PROPERTY_TYPE"], [55, 59, "LOCATION"], [81, 96, "BUDGET"]]}
+{"text": "A person named Arjun Khanna is looking for an office space in Noida. Email me at neha123@yahoo.com.", "entities": [[15, 27, "NAME"], [46, 58, "PROPERTY_TYPE"], [62, 67, "LOCATION"], [81, 98, "CONTACT"]]}
+{"text": "My name is Riya Sharma and I’m looking to rent a 3BHK apartment in Hyderabad. Budget is around 35,000 per month.", "entities": [[11, 22, "NAME"], [49, 63, "PROPERTY_TYPE"], [67, 76, "LOCATION"], [88, 111, "BUDGET"]]}
+{"text": "Need a villa in Goa. Please call Akash at 9998887776 with available options.", "entities": [[33, 38, "NAME"], [7, 12, "PROPERTY_TYPE"], [16, 19, "LOCATION"], [42, 52, "CONTACT"]]}
+{"text": "Looking for a buyer for my 2-bedroom flat located in South Delhi. Price expected is 1.2 crore. Reach me at rajat_das@outlook.com", "entities": [[27, 41, "PROPERTY_TYPE"], [53, 64, "LOCATION"], [84, 93, "BUDGET"], [107, 128, "CONTACT"]]}
+{"text": "Hi, I’m Anjali. I want to invest in a shop space in Indore. Budget is flexible. Email: anjali.k@domain.com", "entities": [[8, 14, "NAME"], [38, 48, "PROPERTY_TYPE"], [52, 58, "LOCATION"], [87, 106, "CONTACT"]]}
+{"text": "This is to enquire on behalf of Mr. Vikram Mehta who’s looking for a farmhouse near Manesar.", "entities": [[36, 48, "NAME"], [69, 78, "PROPERTY_TYPE"], [84, 91, "LOCATION"]]}
+{"text": "Seeking a rental flat in Powai, Mumbai. Tenant: Surabhi Kulkarni. Monthly budget is 45k. Phone: 9843210987", "entities": [[48, 64, "NAME"], [10, 21, "PROPERTY_TYPE"], [25, 38, "LOCATION"], [84, 87, "BUDGET"], [96, 106, "CONTACT"]]}
+{"text": "A young couple from Pune is searching for a 1RK studio within 25k/month budget. Contact Ansh at 9123405678", "entities": [[44, 54, "PROPERTY_TYPE"], [20, 24, "LOCATION"], [62, 71, "BUDGET"], [88, 92, "NAME"], [96, 106, "CONTACT"]]}
+{"text": "Please help Shalini Roy find a duplex in Kolkata. Willing to pay up to 85 lakhs.", "entities": [[12, 23, "NAME"], [31, 37, "PROPERTY_TYPE"], [41, 48, "LOCATION"], [65, 79, "BUDGET"]]}
+{"text": "Rent requirement: Office for IT team in Gurgaon. Need 1000 sq.ft. Monthly budget 70k. Contact Sandeep@xyzmail.com", "entities": [[18, 24, "PROPERTY_TYPE"], [40, 47, "LOCATION"], [81, 84, "BUDGET"], [94, 113, "CONTACT"]]}
+{"text": "My friend Ayesha is planning to purchase a plot in Chandigarh. Around 60-75 lakhs is what she’s expecting.", "entities": [[10, 16, "NAME"], [43, 47, "PROPERTY_TYPE"], [51, 61, "LOCATION"], [70, 81, "BUDGET"]]}
+{"text": "Interested in leasing a commercial warehouse in Ahmedabad. Drop info to me at: trader.manav@bizmail.com", "entities": [[24, 44, "PROPERTY_TYPE"], [48, 57, "LOCATION"], [79, 103, "CONTACT"]]}
+{"text": "We are looking to sell a penthouse in Jubilee Hills, Hyderabad. Expected price is 2.5 crores. Seller: Rajeev Menon", "entities": [[102, 114, "NAME"], [25, 34, "PROPERTY_TYPE"], [38, 62, "LOCATION"], [82, 92, "BUDGET"]]}
+{"text": "I’m Lakshmi and I want to rent a flat near MG Road, Bangalore. Max rent is 30,000 INR", "entities": [[4, 11, "NAME"], [33, 37, "PROPERTY_TYPE"], [43, 61, "LOCATION"], [75, 85, "BUDGET"]]}
+{"text": "Trying to find a buyer for my shop in Rajkot. My number is 9011223344.", "entities": [[30, 34, "PROPERTY_TYPE"], [38, 44, "LOCATION"], [59, 69, "CONTACT"]]}
+{"text": "A man named Mohit is interested in a resale apartment in Kharadi, Pune. Budget 90 lakhs. Email: mohitb@gmail.com", "entities": [[12, 17, "NAME"], [37, 53, "PROPERTY_TYPE"], [57, 70, "LOCATION"], [79, 87, "BUDGET"], [96, 112, "CONTACT"]]}
+{"text": "Hi, this is Tanya from Chennai. Want to buy a builder floor. Max budget 1 crore. Phone number: 9871112233", "entities": [[12, 17, "NAME"], [23, 30, "LOCATION"], [46, 59, "PROPERTY_TYPE"], [72, 79, "BUDGET"], [95, 105, "CONTACT"]]}
+{"text": "2BHK house required in Jaipur by Mr. and Mrs. Khanna. Contact: 7000099990", "entities": [[33, 52, "NAME"], [0, 10, "PROPERTY_TYPE"], [23, 29, "LOCATION"], [63, 73, "CONTACT"]]}
+{"text": "Wanting a warehouse on rent near Whitefield, Bangalore. Renter: Harshad Singh", "entities": [[64, 77, "NAME"], [10, 19, "PROPERTY_TYPE"], [33, 54, "LOCATION"]]}
+{"text": "Do you have anything in budget of 60-70 lakhs for a 3BHK in Lucknow? Contact: 9873431122 (Renu Das)", "entities": [[90, 98, "NAME"], [52, 56, "PROPERTY_TYPE"], [60, 67, "LOCATION"], [34, 45, "BUDGET"], [78, 88, "CONTACT"]]}
+{"text": "Hi broker, this is Yashwant. I’m looking for a land plot in Mysore. Budget not more than 50 lakhs.", "entities": [[19, 27, "NAME"], [47, 56, "PROPERTY_TYPE"], [60, 66, "LOCATION"], [75, 97, "BUDGET"]]}
+{"text": "Srishti here. Looking for a flat in Pune. Budget around 35 lakhs.", "entities": [[0, 7, "FULL_NAME"], [36, 40, "LOCATION"], [56, 64, "BUDGET"], [28, 32, "PROPERTY_TYPE"]]}
+{"text": "My budget is flexible, somewhere near 60L. Prefer a villa in Hyderabad.", "entities": [[38, 41, "BUDGET"], [52, 57, "PROPERTY_TYPE"], [61, 70, "LOCATION"]]}
+{"text": "Can you help me get a 2BHK apartment in Noida under 45 lakhs?", "entities": [[22, 36, "PROPERTY_TYPE"], [40, 45, "LOCATION"], [52, 60, "BUDGET"]]}
+{"text": "Need a place near MG Road, Bangalore. It’s for my daughter.", "entities": [[18, 36, "LOCATION"]]}
+{"text": "This is Rahul Sharma. I'm searching for a commercial office space in Chennai.", "entities": [[8, 20, "FULL_NAME"], [42, 65, "PROPERTY_TYPE"], [69, 76, "LOCATION"]]}
+{"text": "I'm Karan, looking to rent out a 3-bedroom house in Indore.", "entities": [[4, 9, "FULL_NAME"], [33, 48, "PROPERTY_TYPE"], [52, 58, "LOCATION"]]}
+{"text": "Apartment needed. Budget is 25L. In Mumbai suburbs.", "entities": [[0, 9, "PROPERTY_TYPE"], [28, 31, "BUDGET"], [36, 50, "LOCATION"]]}
+{"text": "Hi, my name is Anjali Mehta. I want to buy a plot near Sector 62, Noida.", "entities": [[15, 27, "FULL_NAME"], [45, 49, "PROPERTY_TYPE"], [55, 71, "LOCATION"]]}
+{"text": "Looking for something peaceful in the outskirts of Bangalore. Budget around 80 lakhs.", "entities": [[38, 60, "LOCATION"], [76, 84, "BUDGET"]]}
+{"text": "Renting a 1BHK in Whitefield for 20k monthly. Got anything?", "entities": [[10, 14, "PROPERTY_TYPE"], [18, 28, "LOCATION"], [33, 44, "BUDGET"]]}
+{"text": "Can I get your number? I'm interested in a row house in Pune.", "entities": [[43, 52, "PROPERTY_TYPE"], [56, 60, "LOCATION"]]}
+{"text": "Hello! Myself Tanya. Searching for a small apartment in Gurugram. Contact: 9876543210", "entities": [[14, 19, "FULL_NAME"], [37, 52, "PROPERTY_TYPE"], [56, 64, "LOCATION"], [75, 85, "CONTACT"]]}
+{"text": "A friend told me you help with rentals. I need something near Cyber Hub.", "entities": [[62, 71, "LOCATION"]]}
+{"text": "I am a student looking for a PG in South Delhi. Monthly budget is around 15k.", "entities": [[7, 14, "OCCUPATION"], [29, 31, "PROPERTY_TYPE"], [35, 46, "LOCATION"], [73, 76, "BUDGET"]]}
+{"text": "Name's Viren. Hunting for a duplex in Ahmedabad. Call me at 9998877665", "entities": [[7, 12, "FULL_NAME"], [28, 34, "PROPERTY_TYPE"], [38, 47, "LOCATION"], [60, 70, "CONTACT"]]}
+{"text": "I want to invest in commercial space in Navi Mumbai. Any leads?", "entities": [[20, 36, "PROPERTY_TYPE"], [40, 51, "LOCATION"]]}
+{"text": "Do you deal with 4BHKs in Powai? My range is 1.2 Cr.", "entities": [[17, 21, "PROPERTY_TYPE"], [26, 31, "LOCATION"], [45, 51, "BUDGET"]]}
+{"text": "Need a studio apartment for a short stay in Delhi NCR.", "entities": [[7, 23, "PROPERTY_TYPE"], [44, 53, "LOCATION"]]}
+{"text": "My cousin, Aditi, is relocating to Jaipur and needs a flat under 40L.", "entities": [[11, 16, "FULL_NAME"], [35, 41, "LOCATION"], [54, 58, "PROPERTY_TYPE"], [65, 68, "BUDGET"]]}
+{"text": "Can you suggest some gated societies in Mohali? Prefer new constructions.", "entities": [[40, 46, "LOCATION"]]}
+{"text": "This is Joseph, currently in Dubai. I’m shifting to Kochi and need a 3BHK there.", "entities": [[8, 14, "FULL_NAME"], [52, 57, "LOCATION"], [69, 73, "PROPERTY_TYPE"]]}
+{"text": "Budget max 70L. Prefer semi-furnished. Locality: Baner, Pune.", "entities": [[11, 14, "BUDGET"], [49, 60, "LOCATION"]]}
+{"text": "Is there anything available for lease in Jayanagar, Bangalore?", "entities": [[41, 61, "LOCATION"]]}
+{"text": "I’m Priya Sharma and I’m helping my parents find a 2BHK in Faridabad.", "entities": [[4, 16, "FULL_NAME"], [51, 55, "PROPERTY_TYPE"], [59, 68, "LOCATION"]]}
+{"text": "Interested in 1RKs for bachelors in Andheri East.", "entities": [[14, 18, "PROPERTY_TYPE"], [36, 48, "LOCATION"]]}
+{"text": "My whatsapp number is 9080706050. Send listings for apartments in Goa.", "entities": [[22, 32, "CONTACT"], [52, 62, "PROPERTY_TYPE"], [66, 69, "LOCATION"]]}
+{"text": "Buying a resale flat. Budget up to 55 lakhs. Anywhere in West Delhi.", "entities": [[9, 20, "PROPERTY_TYPE"], [35, 43, "BUDGET"], [57, 67, "LOCATION"]]}
+{"text": "Nikhil here. Want to move closer to my office in Hinjewadi. Studio preferred.", "entities": [[0, 6, "FULL_NAME"], [49, 58, "LOCATION"], [60, 66, "PROPERTY_TYPE"]]}
+{"text": "Can you suggest villas under 2 Cr in ECR, Chennai?", "entities": [[16, 22, "PROPERTY_TYPE"], [37, 49, "LOCATION"], [29, 33, "BUDGET"]]}
+{"text": "Just need a cozy 1BHK for two working professionals in BTM Layout.", "entities": [[17, 21, "PROPERTY_TYPE"], [55, 65, "LOCATION"]]}
