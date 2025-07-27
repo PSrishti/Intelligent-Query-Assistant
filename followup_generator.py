@@ -11,7 +11,18 @@ os.environ["TRANSFORMERS_NO_ADVISORY_WARNINGS"] = "1"
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
 # Lightweight instruction-tuned model
-model_name = "google/flan-t5-small"
+model_name = "MBZUAI/LaMini-Flan-T5-783M"
+local_model_path = "./models/Followup_Generator"
+
+# Download and save model if not already present
+if not os.path.exists(local_model_path):
+    print("Loading the generator model. This might take a few minutes...")
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+    tokenizer.save_pretrained(local_model_path)
+    model.save_pretrained(local_model_path)
+else:
+    print("Loading generator model from local path...")
 
 # Load tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -20,14 +31,26 @@ model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 def build_followup_prompt(user_query, expert_category, extracted_attrs, missing_attrs):
     return f"""
 You are an AI assistant helping users provide complete information to route their queries to the correct expert.
+Example:
+Expert Category: Medical Consultant
+User Query: "Hello, this is a 42 years, male, from Bhopal. My BP has been very high and I feel dizzy often. Issue began around 10 days ago. I'm taking BP tablets. History of hypertension."
+Extracted Attributes: {'AGE': '42 years', 'GENDER': 'male', 'LOCATION': 'Bhopal', 'MEDICAL_CONCERN': 'high BP and dizziness', 'SYMPTOMS_DURATION': 'around 10 days', 'MEDICAL_HISTORY': 'hypertension'}
+Missing Attributes: ['CONTACT_DETAILS', 'FULL_NAME']
+
+Follow-up Questions:
+1. How can we contact you?
+2. Could you please provide the full name of the patient?
+
+Now follow the same pattern for the below input.
 
 Expert Category: {expert_category}
-User Query: "{user_query}"
+User Query: {user_query}
 Extracted Attributes: {extracted_attrs}
 Missing Attributes: {missing_attrs}
 
-Generate one natural language follow-up question for each missing attribute that is contextually relevant to the query and expert category. Phrase the questions in a polite and user-friendly tone.
-"""
+Consider only the Missing_Information list and Generate a single question for each element in the Missing_Information list asking user to provide that missing information. Phrase the questions in a polite and user-friendly tone.
+
+Follow-up Questions:"""
 
 def get_followup_questions_llm(user_query, expert_category, extracted_attrs, missing_attrs):
     prompt = build_followup_prompt(user_query, expert_category, extracted_attrs, missing_attrs)
@@ -36,16 +59,5 @@ def get_followup_questions_llm(user_query, expert_category, extracted_attrs, mis
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return response
 
-#prompt = 
-"""
-You are an AI assistant helping users provide complete information to route their queries to the correct expert.
-
-Expert Category: broker
-User Query: "Seeking a rental flat in Powai, Mumbai. Tenant: Surabhi Kulkarni. Monthly budget is 45k. Phone: 9843210987"
-Extracted Attributes: {"PROPERTY_TYPE" : "rental flat", "LOCATION" : "Powai, Mumbai", "NAME" : "Surabhi Kulkarni", "CONTACT" : "9843210987"}
-Missing Attributes: ['BUDGET', 'ADDITIONAL_FEATURES']
-
-Generate one natural language follow-up question for each missing attribute that is contextually relevant to the query and expert category. Phrase the questions in a polite and user-friendly tone.
-"""
 
 
