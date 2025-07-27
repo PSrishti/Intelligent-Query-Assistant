@@ -23,10 +23,9 @@ if not os.path.exists(local_model_path):
     model.save_pretrained(local_model_path)
 else:
     print("Loading generator model from local path...")
-
-# Load tokenizer and model
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+    # Load tokenizer and model
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
                    
 def build_followup_prompt(user_query, expert_category, extracted_attrs, missing_attrs):
     return f"""
@@ -34,7 +33,6 @@ You are an AI assistant helping users provide complete information to route thei
 Example:
 Expert Category: Medical Consultant
 User Query: "Hello, this is a 42 years, male, from Bhopal. My BP has been very high and I feel dizzy often. Issue began around 10 days ago. I'm taking BP tablets. History of hypertension."
-Extracted Attributes: {'AGE': '42 years', 'GENDER': 'male', 'LOCATION': 'Bhopal', 'MEDICAL_CONCERN': 'high BP and dizziness', 'SYMPTOMS_DURATION': 'around 10 days', 'MEDICAL_HISTORY': 'hypertension'}
 Missing Attributes: ['CONTACT_DETAILS', 'FULL_NAME']
 
 Follow-up Questions:
@@ -45,8 +43,7 @@ Now follow the same pattern for the below input.
 
 Expert Category: {expert_category}
 User Query: {user_query}
-Extracted Attributes: {extracted_attrs}
-Missing Attributes: {missing_attrs}
+Missing Attributes: {repr(missing_attrs)}
 
 Consider only the Missing_Information list and Generate a single question for each element in the Missing_Information list asking user to provide that missing information. Phrase the questions in a polite and user-friendly tone.
 
