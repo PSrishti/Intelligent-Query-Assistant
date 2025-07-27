@@ -45,11 +45,13 @@ pip install -r requirements.txt
 
 5. Run main script.
 (bash command)
-python main.py --text "Hello, this is Mohan Menon, 42 years, male, from Bhopal. My BP has been very high and I feel dizzy often. Issue began around 10 days ago. I'm taking BP tablets. History of hypertension."
+python main.py --text "My name is Anjali Sharma. I was born on 1990-05-12 at 02:30 PM in Delhi. I identify as Female. I'm currently facing issues related to property disputes. I prefer Vedic Astrology."
 
-Relevant expert categories are - Broker, Legal Advisor, Astrologer, Tech Support, Medical Consultant
+Note: The first run might be slow, since the generator model will be loaded on the first run. But a local instance would be stored for all further runs.
 
-Note: Model google/flan-t5-small ia used here for follow-up question generator to avoid memory issues. It is compatible with CPU or MPS for lightweight inference.
+Note: Relevant expert categories are - Broker, Legal Advisor, Astrologer, Tech Support, Medical Consultant
+
+Note: Model MBZUAI/LaMini-Flan-T5-783M is used here for follow-up question generator to avoid memory issues. It is compatible with CPU or MPS for lightweight inference.
 
 Note: This setup is tested on macOS using MPS backend; suitable LLMs must be chosen to avoid memory overflow.
 
