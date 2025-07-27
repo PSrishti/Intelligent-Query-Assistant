@@ -76,7 +76,15 @@ Understanding the files structure:
     - query_classifier is the model for first stage query classification to ATEGORY_SEARCH, NEED_PROBLEM_BASED, INFO_GATHERING_GENERAL, INVALID_NONSENSE.
     - expert_classifier is the model to classify a user query to an expert category.
 
-    
-
+Sample input queries to test - 
+- python main.py --text "My name is Anjali Sharma. I was born on 1990-05-12 at 02:30 PM in Delhi. I'm currently facing issues related to property disputes. I prefer Vedic astrology."
+- python main.py --text "Seeking a 3BHK rental flat. Tenant: Surabhi Kulkarni. Monthly budget is 45k. Phone: 9843210987"
+- python main.py --text "Hi, I am facing harassment at my Bangalore workplace. I need help understanding if I can file a complaint under Karnataka labor law. I have chat transcripts and emails as proof."
+- python main.py --text "My name is Anirban Roy, 47 years old male from Pune. I've had chest pain for 3 days now."
+- python main.py --text "My name is Tanmay. Iâ€™m unable to log in to my Windows laptop after the last update. Keyboard input not working."
+- python main.py --text "Hi there, what’s up?"
+- python main.py --text "Tips for first-time home buyers?"
+- python main.py --text "Can I take pets on domestic flights?"
+- python main.py --text "!!!!!!!!!!!!!!"
 
 
