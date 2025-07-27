@@ -11,7 +11,9 @@ Steps to achieve the objective :
 6. A response is generated in a proper structure. 
 
 Output structure - 
+
 ===== Query Result =====
+
 {'original_query': 'Hi, I’m Sneha Kulkarni, a software engineer facing harassment at my Bangalore workplace. I need help understanding if I can file a complaint under Karnataka labor law.', 
  'classification': 'CATEGORY_SEARCH', 
  'identified_category': 'Legal Advisor', 
