@@ -14,11 +14,11 @@ Output structure -
 
 ===== Query Result =====
 
-{'original_query': 'Hi, I’m Sneha Kulkarni, a software engineer facing harassment at my Bangalore workplace. I need help understanding if I can file a complaint under Karnataka labor law.', 
- 'classification': 'CATEGORY_SEARCH', 
- 'identified_category': 'Legal Advisor', 
- 'extracted_attributes': {'FULL_NAME': 'Sneha Kulkarni', 'OCCUPATION': 'software engineer', 'ISSUE_DESCRIPTION': 'facing harassment at my Bangalore workplace', 'JURISDICTION': 'Karnataka'}, 'missing_info': ['SUPPORTING_DOCUMENTS'], 
- 'ai_questions_for_missing_info': 'Do you have any supporting documents relevant to the issue you have described?'}
+Original_Query: Hi, I’m Sneha Kulkarni, a software engineer facing harassment at my Bangalore workplace. I need help understanding if I can file a complaint under Karnataka labor law.
+Classification:  CATEGORY_SEARCH
+Identified_Category: Legal Advisor
+Extracted_attributes: {'FULL_NAME': 'Sneha Kulkarni', 'OCCUPATION': 'software engineer', 'ISSUE_DESCRIPTION': 'facing harassment at my Bangalore workplace', 'JURISDICTION': 'Karnataka'} Missing_info: ['SUPPORTING_DOCUMENTS'] 
+AI_questions_for_missing_info: Do you have any supporting documents relevant to the issue you have described?
  
 Setup Instructions - 
 
