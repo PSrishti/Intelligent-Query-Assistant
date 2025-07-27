@@ -1,4 +1,4 @@
-Intelligent Query Understanding and Augmentation
+**Intelligent Query Understanding and Augmentation**
 
 Objective : Interpreting free-form user queries, classifying their intent, extracting relevant information, and identifying what's missing to interact with specialized "experts" (which could be different LLM prompts, APIs, or knowledge bases).
 
